@@ -1,9 +1,13 @@
-const ChangeTypes = require('./lib/ChangeTypes');
-const simplifyExpression = require('./lib/simplifyExpression');
-const solveEquation = require('./lib/solveEquation');
+import math from './node_modules/mathjs';
+import ChangeTypes from './lib/ChangeTypes';
+import simplifyExpression from './lib/simplifyExpression';
+import solveEquation from './lib/solveEquation';
+import mathQuill from './node_modules/mathquill/build/mathquill.js';
+import './node_modules/mathquill/build/mathquill.css';
 
-module.exports = {
-  simplifyExpression,
-  solveEquation,
-  ChangeTypes,
+window.mathsteps = {
+  simplifyExpression:simplifyExpression,
+  solveEquation:solveEquation,
+  ChangeTypes:ChangeTypes
 };
+window.math = math;
