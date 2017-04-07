@@ -56,13 +56,23 @@ Learn more here: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 First clone the project from github:
 
-    git clone https://github.com/socraticorg/mathsteps.git
+    git clone https://github.com/2dmaster/mathsteps.git
     cd mathsteps
 
 Install the project dependencies:
 
     npm install
 
+Build distributable
+
+    npm run build-dis
+
+
+
+    Ok then if you want to compile the mathsteps library you should:
+    1. clone this https://github.com/2dmaster/mathsteps repo.
+    2. npm install
+    3. npm run build-dist
 ## Test
 
 To execute tests for the library, install the project dependencies once:
