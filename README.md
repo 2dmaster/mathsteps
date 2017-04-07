@@ -65,7 +65,7 @@ Install the project dependencies:
 
 Build distributable
 
-    npm run build-dis
+    npm run build-dist
 
 ## Test
 
